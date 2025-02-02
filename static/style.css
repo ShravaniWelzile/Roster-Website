@@ -1,0 +1,44 @@
+:root {
+    --dark-blue: #0d1b2a;
+    --navy-blue: #1b263b;
+    --slate-blue: #415a77;
+    --light-blue: #778da9;
+    --off-white: #e0e1dd;
+}
+
+body {
+    background-color: var(--dark-blue);
+    color: var(--off-white);
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.table-dark {
+    background-color: var(--navy-blue);
+    color: var(--off-white);
+}
+
+.btn-primary {
+    background-color: var(--slate-blue);
+    border-color: var(--slate-blue);
+}
+
+.btn-secondary {
+    background-color: var(--light-blue);
+    border-color: var(--light-blue);
+}
+
+.table th, .table td {
+    text-align: center;
+}
+
+.table tbody tr:hover {
+    background-color: var(--slate-blue);
+}
+
+.form-select {
+    width: 100%;
+}
